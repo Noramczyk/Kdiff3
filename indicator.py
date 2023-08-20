@@ -11,8 +11,8 @@ stock = 'MOS'
 
 bTime = "730"
 
-x,y,oX,oY, eX, eY = [],[],[],[],[],[]
-
+newVar = 6955
+secondVar = 5522
 cnt = 7
 
 #ENVKEY/key.txt
@@ -56,12 +56,10 @@ j = finnhub_client.technical_indicator(symbol=stock, resolution='5',
                                        indicator='macd', 
                                        indicator_fields={"timeperiod": 3})
 
-i = finnhub_client.technical_indicator(symbol=stock, resolution='5', 
-                                       _from=start, to=end, 
-                                       indicator='wma', 
-                                       indicator_fields={"timeperiod": 5})
 
 print("Added print dev2 create a conflict")
+print("Working")
+
 # k = finnhub_client.technical_indicator(symbol=stock, resolution='5', 
 #                                        _from=begin, to=end, 
 #                                        indicator='ema', 
