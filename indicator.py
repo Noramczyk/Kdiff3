@@ -61,7 +61,7 @@ i = finnhub_client.technical_indicator(symbol=stock, resolution='5',
                                        indicator='wma', 
                                        indicator_fields={"timeperiod": 5})
 
-print("Added print dev2")
+print("Added print dev2 create a conflict")
 # k = finnhub_client.technical_indicator(symbol=stock, resolution='5', 
 #                                        _from=begin, to=end, 
 #                                        indicator='ema', 
