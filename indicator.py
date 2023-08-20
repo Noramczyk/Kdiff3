@@ -11,8 +11,8 @@ stock = 'MOS'
 
 bTime = "730"
 
-newVar = 695566999
-secondVar = 55226655
+newVar = 6
+secondVar = 5
 cnt = 7
 
 #ENVKEY/key.txt
