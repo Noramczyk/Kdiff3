@@ -7,13 +7,13 @@ import time
 
 begin = 1691415000
 end = 1691436600
-stock = 'MOS'
+stock = 'KEY'
 
-bTime = "730"
+bTime = "9000"
 
 newVar = 6
 secondVar = 5
-cnt = 7
+cnt = 8
 
 #ENVKEY/key.txt
 with open('ENVKEY/key.txt') as file:
