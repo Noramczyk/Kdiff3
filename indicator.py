@@ -7,13 +7,15 @@ import time
 
 begin = 1691415000
 end = 1691436600
-stock = 'MOS'
+stock = 'AMD'
 
-bTime = "730"
+bTime = "73"
 
 newVar = 6
 secondVar = 5
 cnt = 7
+
+arr1,arr2,arr3 = [],[],[]
 
 #ENVKEY/key.txt
 with open('ENVKEY/key.txt') as file:
